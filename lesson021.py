@@ -17,6 +17,17 @@ class Dog(Animal):
     def whatIEat(self):
         print("Dog eats dog food and drinks milk.")
 
+animal = Animal()
+
+
+lion = Lion()
+lion.whatIEat()
+
+cow = Cow()
+cow.whatIEat()
+
+dog = Dog()
+dog.whatIEat()
 
 
 
