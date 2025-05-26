@@ -15,9 +15,7 @@ class Cow(Animal):
 
 class Dog(Animal):
     def whatIEat(self):
-        print("Dog eats dog food and drinks milk.")
-
-animal = Animal()
+        print("Dog eats dog food.")
 
 
 lion = Lion()
@@ -27,7 +25,6 @@ cow = Cow()
 cow.whatIEat()
 
 dog = Dog()
-dog.whatIEat()
 
 
 
